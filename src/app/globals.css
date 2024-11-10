@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  @apply text-3xl font-semibold text-center;
+}
+
+input {
+  @apply p-2 text-white rounded-lg border bg-transparent border-gray-700;
+}
+
+button {
+  @apply p-2 text-white bg-gray-700 rounded-lg;
+}
